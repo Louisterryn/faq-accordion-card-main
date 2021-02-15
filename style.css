@@ -128,15 +128,133 @@ p{
 .active .arrow{
     transform: rotate(180deg);
 }
-.active{
-    font-weight: 700;
-
-}
 .active button{
     font-weight: 700;
 }
-/* 
-Mettre une transition apparition panel 
-Mettre le truc dérrière correctement
-Faire en sorte que ce soit pas dégeulasse quand ça se déroule */
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:1084px){
+    .container{
+        max-width: 700px;
+    }
+
+}
+@media only screen and (max-width:807px){
+    .container{
+        display: block;
+    }
+    .images{
+        background-size: 50%;
+        background-position: 49% 106%;
+        padding-bottom: 50px;
+    }
+    .woman{
+        margin-left: 0px;
+        margin-top: -157px;
+        width: 50%;
+    }
+    .test{
+        overflow:visible;
+    }
+    .boite{
+        width: 40%;
+        margin-left: 146px;
+        margin-top: -146px;
+    }
+    .texte{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 45px;
+    }
+    .accordion{
+        text-align: center;
+        width: 100%;
+        font-size: 22px;
+    }
+    .container-accordion{
+        display: flex;
+    }
+    .panel{
+        text-align: center;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .panel p{
+        width: 80%;
+        margin: auto;
+        font-size: 16px;
+    }
+    .separator{
+        width: 60%;
+    }
+    h1{
+        font-size: 40px;
+    }
+
+}
+@media only screen and (max-width:724px){
+    .container{
+        max-width: 500px;
+    }
+    .woman{
+        margin-top: -112px;
+
+    }
+    .boite{
+        width: 30%;
+        margin-left: 71px;
+        margin-top: -107px;
+    }
+    .panel p{
+        font-size: 12px;
+
+    }
+    .accordion{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:545px){
+    .container{
+        max-width: 450px;
+        
+    }
+    .woman{
+        margin-top: -97px;
+
+    }
+    .boite{
+        margin-left: 58px;
+        margin-top: -99px;
+
+    }
+}
+@media only screen and (max-width:480px){
+    .container{
+        max-width: 350px;
+        
+    }
+    .woman{
+        width: 70%;
+        margin-top: -108px;
+
+    }
+    .boite{
+        margin-left: 1px;
+        margin-top: -106px;
+
+    }
+    .accordion{
+        font-size: 14px;
+    }
+    .images{
+        background-size: 74%;
+        background-position: 39% 114%;
+    }
+    .main{
+        padding-top: 120px;
+    }
+}
 
