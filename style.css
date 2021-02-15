@@ -256,5 +256,8 @@ p{
     .main{
         padding-top: 120px;
     }
+    .texte{
+        height: auto;
+    }
 }
 
