@@ -45,12 +45,6 @@ body{
     margin-top: 103px;
 
 }
-/* .images:after{
-    content: url(images/illustration-box-desktop.svg);
-    position: absolute;
-    display: block;
-    height: 100%;
-} */
 .container{
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
@@ -60,22 +54,13 @@ body{
     border-radius: 2%;
     flex-grow: 1;
 }
-.pattern{
-    position: absolute;
-    margin-top: -15%;
-    margin-left: -30%;
-}
 .woman{
     margin-left: -155px;
 }
-/* .box{
-    margin: 15% 0% 0% -8%;
-    position: absolute;
-} */
+
 /* Accordion part */
 .accordion{
     background-color: white;
-    color: hsl(237, 12%, 33%);
     cursor: pointer;
     padding: 18px;
     width: 80%;
@@ -84,6 +69,9 @@ body{
     outline: none;
     font-size: 16px;
     padding-left: 0;
+}
+.accordion{
+    color: hsl(240, 6%, 50%)
 }
 .container-accordion{
     width: 100%;
@@ -120,6 +108,7 @@ p{
       overflow: hidden;
       padding-left: 0;
       width: 80%;
+      color: hsl(240, 6%, 50%);
 }
 .active .panel{
     display: block;
@@ -130,6 +119,7 @@ p{
 }
 .active button{
     font-weight: 700;
+    color: hsl(237, 12%, 33%);
 }
 
 /* MEDIA QUERIES */
@@ -138,7 +128,6 @@ p{
     .container{
         max-width: 700px;
     }
-
 }
 @media only screen and (max-width:807px){
     .container{
